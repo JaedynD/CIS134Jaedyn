@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <main>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        </main>
+    </header>
+    <div>
+        <h1>Contact Us</h1>
+        <p>You can contact us via phone number, email, or through social media dms.
+            <ul>
+                <li>Our address is 123 East Pine St. Motown, Iowa</li>
+                <li>Our phone number is (123)-456-789</li>
+                <li>Our email is flowery_florist@gmail.com</li>
+                <li>Our social media accounts are on facebook and Instgram with the user tag @Flowery_Florist</li>
+            </ul>
+        </p>
+    </div>
+    <form
+         method="post"
+    >
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required />
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" required />
+        <fieldset>
+            <legend>Would you like to be contacted?</legend>
+            <input type="radio" id="yes" value="yes" name="yes" checked/>
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" value="no" name="no"/>
+            <label for="no">No</label>
+        </fieldset>
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+<footer>Instgram: @Flowery_Florist 
+        Facebook: @Flowery_Florist</footer>
+</html>
