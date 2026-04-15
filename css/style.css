@@ -6,8 +6,8 @@ header, h1{
 
 nav a{
     text-decoration: none;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
     color: white;
     font-size: larger;
     background-color: #612E51;
@@ -20,15 +20,28 @@ nav a{
     text-align: center;
     gap: 20px;
     margin: auto;
-    background-color: #C3D2D5;
+    background-color: #C1F7DC;
     color: black;
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+@media (max-width: 600px){
+   nav a{ padding-left: 10%;
+    padding-right: 10%;
+}
+}
+
+@media (max-width: 300px){
+    .container{ max-width: 50%;
+        height: 50%;
+    }
+}
 .container{
     margin: 0;
     color: black;
+    max-width: 100%;
+    height: auto;
 }
 
 footer{
