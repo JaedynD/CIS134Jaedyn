@@ -36,6 +36,15 @@ p{
 img{
     width: 450px;
     height: 400px;
+    box-shadow: 10px 5px 25px #612E51;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+@media screen and (min-width:500px) {
+    img {
+        max-width:100%;
+    }
 }
 
 footer{
