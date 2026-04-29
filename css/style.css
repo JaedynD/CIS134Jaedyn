@@ -15,6 +15,13 @@ nav a{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+@media (max-width:840px){
+    nav a {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+    }
+}
 .text-content{
     display: flex;
     align-items: center;
@@ -27,23 +34,31 @@ nav a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-img{
+.flower_work img{
     box-shadow: 10px 5px 25px #612E51;
     border-radius: 10px;
     max-width: 100%;
+    width:100%;
+    height:auto;
+    display: block;
 }
 
-@media screen and (min-width:500px) {
-    img {
-        max-width:100%;
-    }
+.flower_work{
+    width: auto;
+    height: auto;
+    border: 2px solid #ccc;
+    overflow: hidden;
 }
 
 .container{
     margin: 0;
     color: black;
-    max-width: 100%;
+    width:100%;
+    height:auto;
+    display: block;
 }
+
+
 
 footer{
     text-align: center;

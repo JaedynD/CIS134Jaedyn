@@ -8,6 +8,14 @@ nav a{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+@media (max-width:840px){
+    nav a {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+    }
+}
+
 header{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,17 +27,19 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-img{
+.flower_case img{
     box-shadow: 10px 5px 25px #612E51;
     border-radius: 10px;
-    max-width: 100%;
     align-items: center;
+    width:100%;
+    height:auto;
+    display: block;
 }
-
-@media screen and (min-width:500px) {
-    img {
-        max-width:100%;
-    }
+.flower_case{
+    width: auto;
+    height: auto;
+    border: 2px solid #ccc;
+    overflow: hidden;
 }
 
 ul{
