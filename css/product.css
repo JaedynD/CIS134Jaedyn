@@ -37,7 +37,7 @@ h1{
     font-style: normal;
 }
 
-.products{
+table{
     width: auto;
     height: auto;
     border: 2px solid #ccc;
@@ -46,10 +46,9 @@ h1{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-
 }
 
-.products img{
+table img{
     width:100%;
     height:auto;
     display: block;
