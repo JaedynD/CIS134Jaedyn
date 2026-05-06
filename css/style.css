@@ -1,7 +1,10 @@
 header, h1{
     text-align: center;
     background-color: #C3D2D5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     
 }
 
@@ -12,7 +15,11 @@ nav a{
     color: white;
     font-size: larger;
     background-color: #612E51;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 
 @media (max-width:840px){
@@ -31,7 +38,10 @@ nav a{
     background-color: #C1F7DC;
     color: black;
     font-size: large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Amarna", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .flower_work img{
